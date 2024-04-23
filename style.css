@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  color: #444645;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Amatic SC", sans-serif;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 27px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.3s linear;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: auto;
+}
+
+.btn {
+  padding: 10px 40px;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.btn-yellow {
+  background: #FACB36;
+  color: #444645;
+}
+
+.py {
+  padding: 80px 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+nav {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  z-index: 100;
+}
+nav .container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .container ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .container ul a {
+  color: #FACB36;
+  margin-left: 50px;
+}
+nav .container ul a:hover {
+  color: white;
+}
+
+.mainHeader {
+  color: white;
+  position: relative;
+}
+.mainHeader img {
+  height: 800px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.mainHeader hgroup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.mainHeader hgroup p {
+  padding: 20px 0 40px 0;
+}
+
+.ponuda h2 {
+  color: #FACB36;
+}
+.ponuda h2 + p {
+  padding: 25px 0 76px 0;
+}
+.ponuda article {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.ponuda article div {
+  flex: 0 0 32%;
+}
+.ponuda article div img {
+  border: 5px solid #FACB36;
+  border-radius: 100%;
+}
+.ponuda article div h3 {
+  margin: 45px 0 10px 0;
+  font-size: 24px;
+}
+
+.meni {
+  background: black;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.meni div h2 {
+  color: #FACB36;
+}
+.meni div:first-child {
+  flex: 0 0 60%;
+}
+.meni div:first-child .row {
+  padding: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.meni div:first-child .row .menu-item {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex: 0 0 50%;
+  margin-bottom: 40px;
+}
+.meni div:first-child .row .menu-item .img {
+  flex: 0 0 40%;
+}
+.meni div:first-child .row .menu-item .img img {
+  width: 100px;
+  border-radius: 100%;
+}
+.meni div:first-child .row .menu-item .text {
+  flex: 0 0 60%;
+}
+.meni div:first-child .row .menu-item .text h3 {
+  color: #FACB36;
+}
+.meni div:first-child .row .menu-item .text p {
+  color: white;
+  padding: 10px 0;
+}
+.meni div:first-child .row .menu-item .text span {
+  color: #FACB36;
+  font-weight: bold;
+}
+.meni div:last-child {
+  flex: 0 0 40%;
+}
+
+.usluge h2 {
+  color: #FACB36;
+}
+.usluge h2 + p {
+  padding: 25px 0 76px 0;
+}
+.usluge article {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.usluge article div {
+  flex: 0 0 50%;
+}
+.usluge article div:last-child {
+  background: #FCF4EA;
+  padding: 100px 50px 50px 50px;
+}
+.usluge article div:last-child h3 {
+  color: #FACB36;
+  margin-bottom: 10px;
+}
+.usluge article:nth-child(even) {
+  flex-direction: row-reverse;
+}/*# sourceMappingURL=style.css.map */
